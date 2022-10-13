@@ -1,0 +1,71 @@
+
+
+export const homeObjOne = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lighTextDesc: true,
+    topLine: 'About',
+    headline: 'Hello and Welcome! ',
+    description: 'My name is Andrew Hanycz and I am an aspiring Web/Program Developer.  Born and Raised in Cleveland, Ohio.  Currently Living in South Florida.  I have a passion for coding, problem solving and design.  Please feel free to look around.  I hope you enjoy my website as much as I enjoyed making it!',
+    ButtonLabel: 'Get started',
+    imgStart: false,
+    img: require('../../images/svg01.svg').default,
+    alt:'computer',
+    dark: true,
+    primary: true,
+    darkText: false,
+};
+
+export const homeObjTwo = {
+    id: 'discover',
+    lightBg: false,
+    lightText: true,
+    lighTextDesc: true,
+    topLine: 'Discover',
+    headline: 'React',
+    description: 'This is a React website using styled components and React smooth scroll and an auto-looping background. This website is also fully responsive and uses features such as React Hooks and React Router. The main sections contain reusable components that you can customize and reuse anywhere on your site for future use.',
+    ButtonLabel: 'Get started',
+    imgStart: false,
+    img: require('../../images/svg02.svg').default,
+    alt:'computer',
+    dark: true,
+    primary: true,
+    darkText: false,
+};
+
+export const homeObjThree = {
+    id: 'projects',
+    lightBg: true,
+    lightText: true,
+    lighTextDesc: true,
+    topLine: 'Projects',
+    headline: 'Python, Java, JavaScript, C++ HTML, CSS',
+    description: 'I have worked on projects using C++ and Java programming languages along with Python on Raspberry PI building and designing protical IoT devices using sensors and robotics.  Please feel free to have a look below at some of my other projects I have done.',
+    ButtonLabel: 'Get started',
+    imgStart: false,
+    img: require('../../images/svg03.svg').default,
+    alt:'computer',
+    dark: true,
+    primary: true,
+    darkText: true,
+};
+
+export const homeObjFour = {
+    id: 'contact',
+    lightBg: true,
+    lightText: false,
+    lighTextDesc: false,
+    topLine: 'AndrewHanycz@gmail.com',
+    headline: 'Contact Me',
+    description: '(786) 496-2562 ',
+    addLine: 'Andrew Hanycz ',
+    anotherLine: 'Fort Lauderdale, FL',
+    ButtonLabel: 'Get started',
+    imgStart: true,
+    img: require('../../images/svg04.svg').default,
+    alt:'computer',
+    dark: false,
+    primary: true,
+    darkText: true,
+};
